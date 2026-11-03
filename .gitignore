@@ -1,0 +1,40 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ---- Node ----
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# ---- Environment ----
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+
+# ---- Runtime data (vector store, embedded graph, uploads) ----
+data/*
+!data/samples/
+!data/samples/**
+backend/data/
+uploads/
+*.kuzu
+*.kuzu.wal
+*.log
+
+# ---- OS / editors ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
